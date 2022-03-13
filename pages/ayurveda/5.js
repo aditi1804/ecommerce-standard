@@ -1,7 +1,7 @@
 export default function One() {
     return(
-        <>  
-    <header className="text-gray-600 body-font">
+        <>
+<header className="text-gray-600 body-font">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round"
@@ -21,28 +21,26 @@ export default function One() {
           </button>
         </div>
       </header>
-      <section className="text-gray-600 body-font">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img className="object-cover object-center rounded" alt="hero" src="https://i.ibb.co/VDNv22y/download-2.jpg" />
+
+      <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+            <img class="object-cover object-center rounded" alt="hero" src="https://i.ibb.co/YTdxs58/349503fc6cbc210d26c6f5fa27ff3509.jpg" />
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Handcrafted Just for You!
-              <br className="hidden lg:inline-block" />Pashmina Shawl
+          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Brought up Just for You!
+              <br class="hidden lg:inline-block" />KAMA Refershing Body Mists
             </h1>
-            <p className="mb-8 leading-relaxed"> Rs. 2500/- only.
-                Discover the finest pashminas handmade by gifted artisans from Kashmir. Certified by Govt. of India. Pashmina Shawl, crafted from cashmere an utmost luxury.</p>
-            <div className="flex justify-center">
-              <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Buy</button>
-              <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Add to Cart</button>
+            <p class="mb-8 leading-relaxed">300/- for 45 ml<br />
+                Shop from a wide range of long lasting luxury natural perfumes and organic beauty products for men and women online at a discounted price.</p>
+            <div class="flex justify-center">
+              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Buy</button>
+              <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Add to Cart</button>
             </div>
           </div>
         </div>
       </section>
-
-
-
-      <footer className="text-gray-600 body-font">
+                <footer className="text-gray-600 body-font">
                     <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
                       <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
@@ -79,9 +77,6 @@ export default function One() {
                       </span>
                     </div>
                   </footer>
- 
-
-
         </>
     )
 }

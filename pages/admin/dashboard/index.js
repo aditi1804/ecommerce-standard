@@ -26,7 +26,7 @@ export default function Dashboard({data}) {
         }
         
             
-        fetch('http://localhost:3000/api/product', {  // Enter your IP address here
+        fetch('https://ecommerce-standard.vercel.app/api/product', {  // Enter your IP address here
     
         method: 'POST', 
         mode: 'cors', 
@@ -37,7 +37,20 @@ export default function Dashboard({data}) {
     }
 
     function sendCategoryData() {
-
+        var jsonData = {
+            "image":image.toString,
+            "name":name.toString
+        }
+        
+            
+        fetch('https://ecommerce-standard.vercel.app/api/product', {  // Enter your IP address here
+    
+        method: 'POST', 
+        mode: 'cors', 
+        body: JSON.stringify(jsonData) // body data type must match "Content-Type" header
+    
+        })
+    
     }
 
     return (

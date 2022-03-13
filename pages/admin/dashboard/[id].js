@@ -19,7 +19,7 @@ export default function Dashboard({categories}) {
         <header className="text-gray-600 body-font">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-            <span className="ml-3 text-xl">Tailblocks</span>
+            <span className="ml-3 text-xl">Behind The Closed Doors</span>
             </a>
             <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"></nav>
             <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Logout</button>
@@ -102,9 +102,9 @@ export default function Dashboard({categories}) {
         <footer className="text-gray-600 body-font">
             <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                <span className="ml-3 text-xl">Tailblocks</span>
+                <span className="ml-3 text-xl">Behind The Closed Doors</span>
             </a>
-            <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 Tailblocks —
+            <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 Behind The Closed Doors —
                 <a href="https://twitter.com/knyttneve" className="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@knyttneve</a>
             </p>
             </div>

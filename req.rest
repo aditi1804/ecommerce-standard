@@ -1,0 +1,26 @@
+#########
+POST http://localhost:3001/api/product
+
+{
+    "image":"imagetoString",
+    "name":"nametoString",
+    "price":"pricetoString",
+    "category":"categorytoString",
+    "description":"descriptiontoString"
+}
+
+######
+POST http://localhost:3001/api/category
+
+{
+    "image":"imagetoString",
+    "name":"nametoString"
+}
+
+##########
+POST http://localhost:3001/api/category
+
+{
+    "image":"imagetoString",
+    "name":"nametoString"
+}
